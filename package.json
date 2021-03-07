@@ -1,0 +1,27 @@
+{
+  "name": "form-validation",
+  "version": "1.0.0",
+  "description": "JavaScript example starter project",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "targets": {
+    "default": {
+      "engines": {
+        "browsers": "> 0.25%"
+      },
+      "distDir": "dist",
+      "publicUrl": ".",
+      "sourceMap": false
+    }
+  },
+  "devDependencies": {
+    "@babel/core": "7.13.8",
+    "parcel": "^2.0.0-beta.1"
+  },
+  "keywords": [
+    "javascript",
+    "starter"
+  ]
+}
